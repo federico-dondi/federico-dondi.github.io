@@ -42,6 +42,7 @@
 
   .is-flex { display: flex; }
   .is-flex-column { flex-direction: column; }
+  .image { margin-bottom: 8px; }
 
   .align-center { align-items: center; }
   </style>
@@ -51,21 +52,18 @@
 
 <body>
   <section class="hero is-fullheight">
-    <div class="hero-body has-text-centered has-text-left-mobile">
-      <div class="
-        container
-        is-flex
-        is-flex-column
-        align-center
-        ">
-        <figure class="image is-128x128">
-          <img src="./Avatar.jpeg">
+    <div class="hero-body 
+      has-text-centered 
+      has-text-left-mobile">
+      <div class=" container">
+        <figure class="image is-inline-block">
+          <img src="./Avatar.jpg" style="width: 72px;">
         </figure>
 
         <h1 class="title is-1">Hello, I'm <span class="has-text-primary">Federico Dondi</span> 👋</h1>
         <h4 class="subtitle is-4">Full-stack & videogames Developer • CS Student at UniBo</h4>
 
-        <div class="buttons">
+        <div class="buttons is-inline-block">
           <a 
             href="https://github.com/federico-dondi" 
             hreflang="en" 
